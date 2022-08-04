@@ -1,0 +1,75 @@
+.container {
+    margin: 0 auto;
+    width: 45%;
+}
+html {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+h1 {
+    text-align: right;
+    color: #FFA610;
+
+}
+
+div p:first-letter {
+    color: #FF1727;
+    font-size: 30px;
+}
+
+p em {
+    color: white;
+    background-color: #008100;
+}
+
+h2 {
+    color: blue;
+}
+
+p + h2 {
+    color: #FFA610;
+}
+
+ul span {
+    font-weight: bold;
+}
+
+ol > li {
+    color: grey;
+}
+
+li + li li {
+    color: red;
+}
+
+ul:last-of-type li:first-child li {
+    color: green;
+}
+
+table {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td {
+    padding: 2px 15px;
+    border: 1px solid  black;
+    font-weight: bold;
+}
+
+tr:nth-child(n+3) td:first-child {
+    color: orange;
+    border-color: black;
+    text-align: left;
+    font-weight: normal;
+    padding-left: 2px;
+}
+
+tr:nth-child(n+3) td:nth-child(n+2) {
+    background-color: green;
+    color: white;
+    border-color: black;
+}
